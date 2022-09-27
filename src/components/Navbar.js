@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/Vector.svg";
+import card from "../images/card1.svg";
 
 const Navbar = () => {
   return (
