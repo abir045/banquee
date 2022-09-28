@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../images/Vector.svg";
-import card from "../images/card1.svg";
 
 const Navbar = () => {
   return (
@@ -11,7 +10,12 @@ const Navbar = () => {
             banquee.
           </h1>
         </a>
-        <ul className="flex space-x-5 font-medium text-base text-[#1A191E]">
+        <ul
+          style={{
+            fontFamily: "Inter",
+          }}
+          className="flex space-x-5 font-medium text-base text-[#1A191E]"
+        >
           <li>
             <a href="/features">Features</a>
           </li>
