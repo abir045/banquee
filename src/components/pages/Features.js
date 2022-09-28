@@ -405,7 +405,7 @@ const Features = () => {
             {accounts.basic.details}
           </p>
           <img src={accounts.basic.img} alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[85%] text-white">
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white">
             {accounts.basic.button}
           </button>
         </div>
@@ -435,7 +435,7 @@ const Features = () => {
             {accounts.premium.details}
           </p>
           <img src={accounts.premium.img} alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[85%] text-white">
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white">
             {accounts.basic.button}
           </button>
         </div>
@@ -466,7 +466,7 @@ const Features = () => {
             {accounts.gold.details}
           </p>
           <img src={accounts.gold.img} alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[85%] text-white">
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white">
             {accounts.gold.button}
           </button>
         </div>
@@ -514,7 +514,7 @@ const Features = () => {
         </div>
 
         {/* faq */}
-        <div className="flex flex-col space-y-8 w-[600px]">
+        <div className="flex flex-col space-y-8 w-[50%] mb-[10%]">
           <div className="flex  justify-between">
             <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
               {faq.q1}
@@ -543,8 +543,16 @@ const Features = () => {
           <p className="flex text-[16px] leading-[25.6px] font-medium opacity-50 w-[95%]">
             {faq.details}
           </p>
+
+          <div className="flex  justify-between">
+            <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
+              {faq.q5}
+            </h5>
+            <img src={faq.icon} />
+          </div>
         </div>
       </div>
+      <hr className="bg-[#e8e8e8] h-[1px]" />
     </div>
   );
 };
