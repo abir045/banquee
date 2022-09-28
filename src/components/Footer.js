@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="flex justify-around mx-[10%] mt-[5%]">
+      <div className="flex justify-around mx-[5%] mt-[6%]">
         <h2 className="flex text-[32px] leading-8 font-bold text-[#5bb5a2] tracking-[-0.03em]">
           banquee.
         </h2>
@@ -77,9 +77,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="bg-[#e8e8e8] h-[1px] mt-[10%] mx-[15%]" />
+      <hr className="bg-[#e8e8e8] h-[1px] mt-12 mx-[10%]" />
 
-      <div className="flex mx-[15%] mt-5 justify-between mb-[5%] ">
+      <div className="flex mx-[15%] mt-5 justify-between mb-[3%] ">
         <p
           style={{ fontFamily: "Inter" }}
           className="text-[14px] leading-[22.4px] font-medium opacity-50"

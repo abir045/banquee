@@ -28,20 +28,23 @@ const Features = () => {
           style={{
             fontFamily: "Inter",
           }}
-          className="text-[20px] leading-9 w-[30%]"
+          className="text-[20px] leading-9 w-[30%] font-medium mb-5"
         >
           {banner.body}
         </p>
 
-        <div className="flex space-x-6 pt-5 text-[18px] leading-[18px]">
-          <button className="text-white  bg-[#5BB5A2] p-4 rounded-[6px]  font-medium tracking-[-0.03em]">
+        <div className="flex space-x-6 pt-5 text-[18px] leading-[18px] w-full justify-center">
+          <button className="text-white  bg-[#5BB5A2] py-4 px-6 rounded-[6px]  font-medium tracking-[-0.03em] hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             {banner.buttonAc}
           </button>
-          <button className="text-[#5BB5A2] font-medium ">
-            {banner.buttonCom}
-          </button>
+          <div className="flex  space-x-3  items-center ">
+            <button className="text-[#5BB5A2]  font-medium ">
+              {banner.buttonCom}
+            </button>
+            <img className=" cursor-pointer" src={banner.icon} />
+          </div>
         </div>
-        <div className="flex justify-between space-x-10 w-full pt-[8%] ">
+        <div className="flex justify-between space-x-10 w-full pt-[7%] ">
           <img src={banner.card0} alt="card" />
           <img src={banner.card1} alt="card" />
           <img src={banner.card2} alt="card" />
@@ -217,7 +220,7 @@ const Features = () => {
       </div>
 
       {/* features */}
-      <div className="flex mt-[5%] justify-center space-x-5 mx-[6%] w-[88%]">
+      <div className="flex mt-10 justify-center space-x-5 mx-[6%] w-[88%]">
         {/* integration */}
         <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[25%]">
           <h1 className="text-[40px] mx-[10%]  leading-[48px] tracking-[-0.03em] font-medium mt-[10%] w-[60%]">
@@ -368,10 +371,10 @@ const Features = () => {
       </div>
       {/* accounts  */}
       <div className="flex flex-col items-center  mt-[10%] text-[#1A191E]">
-        <h5 className="text-[20px] leading-6 font-medium tracking-[-0.03em]">
+        <h5 className="text-[20px] leading-6 font-medium tracking-[-0.03em] ">
           {accounts.title}
         </h5>
-        <h2 className="text-[64px] leading-[70.4px] font-medium tracking-[-0.03em]">
+        <h2 className="text-[64px] leading-[70.4px] font-medium tracking-[-0.03em] mt-3 mb-5">
           {accounts.heading}
         </h2>
         <p
@@ -387,8 +390,8 @@ const Features = () => {
       <div className="flex justify-center  mt-[5%] gap-6 w-[70%] mx-[15%]">
         {/* basic */}
         <div className="flex flex-col text-[#1A191E] space-y-[10px] items-center">
-          <div className="flex space-x-3">
-            <h5 className="text-[20px] leading-6 font-medium tracking-[-0.03em]">
+          <div className="flex space-x-3 mb-5">
+            <h5 className="text-[20px] leading-6 font-medium tracking-[-0.03em] ">
               {accounts.basic.title}
             </h5>
             <span className="text-[12px] leading-[21.6px] font-medium text-[#5BB5A2]">
@@ -404,14 +407,14 @@ const Features = () => {
           >
             {accounts.basic.details}
           </p>
-          <img src={accounts.basic.img} alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white">
+          <img src={accounts.basic.img} alt="card" className="py-3" />
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             {accounts.basic.button}
           </button>
         </div>
         {/* premium */}
         <div className="flex flex-col text-[#1A191E] space-y-[10px] items-center">
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 mb-5">
             <h5 className="text-[20px] leading-6 font-medium tracking-[-0.03em]">
               {accounts.premium.title}
             </h5>
@@ -434,15 +437,15 @@ const Features = () => {
           >
             {accounts.premium.details}
           </p>
-          <img src={accounts.premium.img} alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white">
-            {accounts.basic.button}
+          <img src={accounts.premium.img} className="py-3" alt="card" />
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
+            {accounts.premium.button}
           </button>
         </div>
 
         {/* gold */}
         <div className="flex flex-col text-[#1A191E] space-y-[10px] items-center">
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 mb-5">
             <h5 className="text-[20px] leading-6 font-medium tracking-[-0.03em]">
               {accounts.gold.title}
             </h5>
@@ -465,8 +468,8 @@ const Features = () => {
           >
             {accounts.gold.details}
           </p>
-          <img src={accounts.gold.img} alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white">
+          <img src={accounts.gold.img} alt="card" className="py-3" />
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             {accounts.gold.button}
           </button>
         </div>
@@ -514,37 +517,37 @@ const Features = () => {
         </div>
 
         {/* faq */}
-        <div className="flex flex-col space-y-8 w-[50%] mb-[10%]">
-          <div className="flex  justify-between">
+        <div className="flex flex-col  w-[50%] mb-[10%]">
+          <div className="flex  justify-between mb-[10%]">
             <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
               {faq.q1}
             </h5>
             <img src={faq.icon} />
           </div>
-          <div className="flex  justify-between">
+          <div className="flex  justify-between mb-[10%]">
             <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
               {faq.q2}
             </h5>
             <img src={faq.icon} />
           </div>
-          <div className="flex  justify-between">
+          <div className="flex  justify-between mb-[10%]">
             <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
               {faq.q3}
             </h5>
             <img src={faq.icon} />
           </div>
-          <div className="flex  justify-between">
+          <div className="flex  justify-between mb-5">
             <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
               {faq.q4}
             </h5>
             <img src={faq.icon} />
           </div>
 
-          <p className="flex text-[16px] leading-[25.6px] font-medium opacity-50 w-[95%]">
+          <p className="flex text-[16px] pt-[5] leading-[25.6px] font-medium opacity-50 w-[95%] mb-[15%]">
             {faq.details}
           </p>
 
-          <div className="flex  justify-between">
+          <div className="flex  justify-between mb-[10%]">
             <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
               {faq.q5}
             </h5>

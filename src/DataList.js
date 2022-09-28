@@ -37,6 +37,7 @@ import support from "./images/support.svg";
 import mail from "./images/mail.svg";
 import arrow from "./images/arrow.svg";
 import add from "./images/add.svg";
+import rigthtArrow from "./images/rightArrow.svg";
 
 export const FeaturesContent = {
   banner: {
@@ -45,6 +46,7 @@ export const FeaturesContent = {
     body: "Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo duis ut diam.",
     buttonAc: "Open Account",
     buttonCom: "Compare Cards",
+    icon: rigthtArrow,
     card0: c0,
     card1: c1,
     card2: c2,
