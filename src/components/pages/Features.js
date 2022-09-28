@@ -14,6 +14,7 @@ const Features = () => {
     instant,
     accounts,
     contact,
+    faq,
   } = FeaturesContent;
 
   return (
@@ -230,7 +231,7 @@ const Features = () => {
           >
             {integration.body}
           </p>
-          <div className="flex w-full justify-between space-x-3 pt-[10%]">
+          <div className="flex  justify-between space-x-3 pt-[10%] w-full">
             <img className="bg-white rounded-[10px]" src={integration.logo1} />
             <img className="bg-white rounded-[10px] " src={integration.logo2} />
             <img className="bg-white rounded-[10px]" src={integration.logo3} />
@@ -471,10 +472,11 @@ const Features = () => {
         </div>
       </div>
 
-      {/* help */}
+      {/* Help */}
 
-      <div className="flex justify-around mt-[15%] text-[#1A191E]">
-        <div className="flex flex-col space-y-10">
+      <div className="flex  mt-[15%] mx-[15%] text-[#1A191E]">
+        {/* contact */}
+        <div className="flex flex-col space-y-10 w-[50%]">
           <h2 className="text-[64px] leading-[70.4px] tracking-[-0.03em] font-medium">
             {contact.title}
           </h2>
@@ -509,6 +511,38 @@ const Features = () => {
             </button>
             <img src={contact.button.icon} />
           </div>
+        </div>
+
+        {/* faq */}
+        <div className="flex flex-col space-y-8 w-[600px]">
+          <div className="flex  justify-between">
+            <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
+              {faq.q1}
+            </h5>
+            <img src={faq.icon} />
+          </div>
+          <div className="flex  justify-between">
+            <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
+              {faq.q2}
+            </h5>
+            <img src={faq.icon} />
+          </div>
+          <div className="flex  justify-between">
+            <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
+              {faq.q3}
+            </h5>
+            <img src={faq.icon} />
+          </div>
+          <div className="flex  justify-between">
+            <h5 className="text-[20px] leading-[24px] font-medium tracking-[-0.03em] ">
+              {faq.q4}
+            </h5>
+            <img src={faq.icon} />
+          </div>
+
+          <p className="flex text-[16px] leading-[25.6px] font-medium opacity-50 w-[95%]">
+            {faq.details}
+          </p>
         </div>
       </div>
     </div>

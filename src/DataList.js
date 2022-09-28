@@ -36,6 +36,7 @@ import gold from "./images/gold.svg";
 import support from "./images/support.svg";
 import mail from "./images/mail.svg";
 import arrow from "./images/arrow.svg";
+import add from "./images/add.svg";
 
 export const FeaturesContent = {
   banner: {
@@ -193,5 +194,16 @@ export const FeaturesContent = {
       title: "Support",
       icon: arrow,
     },
+  },
+
+  faq: {
+    q1: "How do I open an Banko account?",
+    q2: "How do I order a new card?",
+    q3: "How to change my account limits?",
+    q4: "How does Banko premium works?",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.",
+    q5: "Can I have two Banko accounts?",
+    icon: add,
   },
 };
