@@ -9,7 +9,7 @@ const Footer = () => {
         </h2>
 
         <div className="flex flex-col">
-          <ul className="flex flex-col space-y-5">
+          <ul className="flex flex-col space-y-4">
             <li className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em] mb-[15%]">
               About
             </li>
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col ">
-          <ul className="flex flex-col space-y-5">
+          <ul className="flex flex-col space-y-4">
             <li className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em] mb-[15%]">
               Blog
             </li>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col">
-          <ul className="flex flex-col space-y-5">
+          <ul className="flex flex-col space-y-4">
             <li className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em] mb-[15%]">
               Webflow
             </li>
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col">
-          <ul className="flex flex-col space-y-5">
+          <ul className="flex flex-col space-y-4">
             <li className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em] mb-[15%]">
               Social Media
             </li>
@@ -79,7 +79,7 @@ const Footer = () => {
 
       <hr className="bg-[#e8e8e8] h-[1px] mt-12 mx-[10%]" />
 
-      <div className="flex mx-[15%] mt-5 justify-between mb-[3%] ">
+      <div className="flex mx-[11%] mt-5 justify-between mb-[3%] ">
         <p
           style={{ fontFamily: "Inter" }}
           className="text-[14px] leading-[22.4px] font-medium opacity-50"

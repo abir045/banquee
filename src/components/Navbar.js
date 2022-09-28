@@ -36,7 +36,7 @@ const Navbar = () => {
           <button className="text-[#5BB5A2] text-lg leading-[18px] font-bold tracking-[-0.03em]">
             Login
           </button>
-          <button className="text-[15px] font-medium bg-[#5BB5A2] text-white p-3 rounded-[6px]">
+          <button className="text-[15px] font-medium bg-[#5BB5A2] text-white p-3 rounded-[6px] hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             Open Account
           </button>
         </div>
