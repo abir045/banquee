@@ -29,6 +29,14 @@ import apple from "./images/apple.svg";
 import amz from "./images/amz.svg";
 import google from "./images/google.svg";
 
+import basic from "./images/basic.svg";
+import premium from "./images/premium.svg";
+import gold from "./images/gold.svg";
+
+import support from "./images/support.svg";
+import mail from "./images/mail.svg";
+import arrow from "./images/arrow.svg";
+
 export const FeaturesContent = {
   banner: {
     tag: "Features",
@@ -131,6 +139,59 @@ export const FeaturesContent = {
       category: "Ads",
       price: "-99$",
       img: google,
+    },
+  },
+
+  accounts: {
+    title: "Accounts",
+    heading: "Choose your card.",
+    body: "Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo duis ut diam.",
+    basic: {
+      title: "Basic",
+      addOn: "Popular",
+      price: "Free",
+      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: basic,
+      button: "Get started",
+    },
+
+    premium: {
+      title: "Premium",
+
+      price: "$5",
+      period: "per month",
+      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: premium,
+      button: "Get started",
+    },
+
+    gold: {
+      title: "Gold",
+      price: "$10",
+      period: "per month",
+      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: gold,
+      button: "Get started",
+    },
+  },
+  contact: {
+    title: "Need help?",
+
+    support: {
+      icon: support,
+      phone: "+49176123456",
+      email: "Support Hotline",
+    },
+
+    help: {
+      icon: mail,
+      title: "Support Email",
+      email: "help@banquee.com",
+    },
+
+    button: {
+      title: "Support",
+      icon: arrow,
     },
   },
 };
