@@ -11,6 +11,7 @@ const Features = () => {
     cardDetails,
     integration,
     savings,
+    instant,
   } = FeaturesContent;
 
   return (
@@ -245,6 +246,7 @@ const Features = () => {
             <img className="bg-white " src={integration.logo10} />
           </div>
         </div>
+
         {/* savings  */}
         <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[25%]">
           <h1 className="text-[40px] mx-[10%]  leading-[48px] tracking-[-0.03em] font-medium mt-[10%] w-[60%]">
@@ -291,40 +293,76 @@ const Features = () => {
           </div>
         </div>
 
-        {/* integration */}
+        {/* instant transactions */}
         <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[25%]">
           <h1 className="text-[40px] mx-[10%]  leading-[48px] tracking-[-0.03em] font-medium mt-[10%] w-[60%]">
-            {integration.title}
+            {instant.title}
           </h1>
-          <p className="text-[18px] mx-[10%] leading-[32.4px]  font-medium text-[#1a191e] opacity-50 w-[70%]">
-            {integration.body}
+          <p
+            style={{
+              fontFamily: "Inter",
+            }}
+            className="text-[18px] mx-[10%] leading-[32.4px]  font-medium text-[#1a191e] opacity-50 w-[70%]"
+          >
+            {instant.body}
           </p>
-          {/* <div className="flex w-full justify-between pt-[10%]">
-            <img
-              className="bg-white rounded-[10px] p-4"
-              src={integration.logo1}
-            />
-            <img
-              className="bg-white rounded-[10px] p-4"
-              src={integration.logo2}
-            />
-            <img
-              className="bg-white rounded-[10px] p-4"
-              src={integration.logo3}
-            />
-          </div> */}
-          {/* <div className="flex w-full justify-between pt-[5%]">
-            <img className="bg-white p-4" src={integration.logo4} />
-            <img className="bg-white p-4" src={integration.logo5} />
-            <img className="bg-white p-4" src={integration.logo6} />
-            <img className="bg-white p-4" src={integration.logo7} />
-          </div> */}
 
-          {/* <div className="flex w-full justify-between pt-[5%] pb-[10%]">
-            <img className="bg-white p-4" src={integration.logo8} />
-            <img className="bg-white p-4" src={integration.logo9} />
-            <img className="bg-white p-4" src={integration.logo10} />
-          </div> */}
+          <div className="flex flex-col">
+            {/* product row */}
+            <div className="flex mx-[10%] space-x-5 items-center">
+              <img src={instant.apple.img} className="mt-[15%]" />
+              <div className="flex flex-col mt-[15%]">
+                <h6 className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em]">
+                  {instant.apple.title}
+                </h6>
+                <p
+                  style={{ fontFamily: "Inter" }}
+                  className="text-[16px] leading-[25.6px] opacity-50"
+                >
+                  {instant.apple.category}
+                </p>
+              </div>
+              <h6 className="text-[18px] leading-[25.2px] tracking-[-0.03em] mt-[15%]">
+                {instant.apple.price}
+              </h6>
+            </div>
+            {/* product row */}
+            <div className="flex mx-[10%] space-x-5 items-center">
+              <img src={instant.amazon.img} className="mt-[15%]" />
+              <div className="flex flex-col mt-[15%]">
+                <h6 className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em]">
+                  {instant.amazon.title}
+                </h6>
+                <p
+                  style={{ fontFamily: "Inter" }}
+                  className="text-[16px] leading-[25.6px] opacity-50"
+                >
+                  {instant.amazon.category}
+                </p>
+              </div>
+              <h6 className="text-[18px] leading-[25.2px] tracking-[-0.03em] mt-[15%]">
+                {instant.amazon.price}
+              </h6>
+            </div>
+            {/* product row */}
+            <div className="flex mx-[10%] space-x-5 items-center">
+              <img src={instant.google.img} className="mt-[15%]" />
+              <div className="flex flex-col mt-[15%]">
+                <h6 className="text-[18px] leading-[25.2px] font-medium tracking-[-0.03em]">
+                  {instant.google.title}
+                </h6>
+                <p
+                  style={{ fontFamily: "Inter" }}
+                  className="text-[16px] leading-[25.6px] opacity-50"
+                >
+                  {instant.google.category}
+                </p>
+              </div>
+              <h6 className="text-[18px] leading-[25.2px] tracking-[-0.03em] mt-[15%]">
+                {instant.google.price}
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>

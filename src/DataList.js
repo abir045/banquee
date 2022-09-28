@@ -25,6 +25,10 @@ import i10 from "./images/bitcoin.svg";
 import desktop from "./images/desktop.svg";
 import bicycle from "./images/bicycle.svg";
 
+import apple from "./images/apple.svg";
+import amz from "./images/amz.svg";
+import google from "./images/google.svg";
+
 export const FeaturesContent = {
   banner: {
     tag: "Features",
@@ -113,17 +117,20 @@ export const FeaturesContent = {
       title: "Apple",
       category: "Electronic",
       price: "-799$",
+      img: apple,
     },
     amazon: {
       title: "Amazon",
       category: "Shopping",
       price: "-99$",
+      img: amz,
     },
 
     google: {
       title: "Google",
       category: "Ads",
       price: "-99$",
+      img: google,
     },
   },
 };
