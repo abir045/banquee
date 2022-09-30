@@ -180,7 +180,7 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="flex mt-[5%] justify-center space-x-5 ">
+      <div className="flex mt-[5%] justify-center space-x-5">
         {/* statistics */}
 
         <div className="flex flex-col space-y-3 bg-[#F8F8F8]  items-center text-center rounded-[20px]">
@@ -220,9 +220,9 @@ const Features = () => {
       </div>
 
       {/* features */}
-      <div className="flex mt-10 justify-center space-x-5 mx-[6%] w-[88%]">
+      <div className="flex mt-10 justify-center space-x-5  desktop:mx-[17.5%] mx-[4%] ">
         {/* integration */}
-        <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[25%]">
+        <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[30%]">
           <h1 className="text-[40px] mx-[10%]  leading-[48px] tracking-[-0.03em] font-medium mt-[10%] w-[60%]">
             {integration.title}
           </h1>
@@ -253,7 +253,7 @@ const Features = () => {
           </div>
         </div>
         {/* savings  */}
-        <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[25%]">
+        <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[30%]">
           <h1 className="text-[40px] mx-[10%]  leading-[48px] tracking-[-0.03em] font-medium mt-[10%] w-[60%]">
             {savings.title}
           </h1>
@@ -298,7 +298,7 @@ const Features = () => {
           </div>
         </div>
         {/* instant transactions */}
-        <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[25%]">
+        <div className="flex flex-col space-y-3 bg-[#F8F8F8] rounded-[20px] w-[30%]">
           <h1 className="text-[40px] mx-[10%]  leading-[48px] tracking-[-0.03em] font-medium mt-[10%] w-[60%]">
             {instant.title}
           </h1>
@@ -408,7 +408,7 @@ const Features = () => {
             {accounts.basic.details}
           </p>
           <img src={accounts.basic.img} alt="card" className="py-3" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-full desktop:w-[85%]   text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             {accounts.basic.button}
           </button>
         </div>
@@ -438,7 +438,7 @@ const Features = () => {
             {accounts.premium.details}
           </p>
           <img src={accounts.premium.img} className="py-3" alt="card" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-full desktop:w-[85%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             {accounts.premium.button}
           </button>
         </div>
@@ -469,7 +469,7 @@ const Features = () => {
             {accounts.gold.details}
           </p>
           <img src={accounts.gold.img} alt="card" className="py-3" />
-          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-[95%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
+          <button className="text-[15px] leading-[15px] py-3 px-4 bg-[#5bb5a2] rounded-[6px] w-full desktop:w-[85%] text-white hover:bg-[#E8F2EE] hover:text-[#5BB5A2]">
             {accounts.gold.button}
           </button>
         </div>
