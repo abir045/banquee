@@ -292,7 +292,7 @@ const Features = () => {
                 }}
                 className="text-[14px] leading-[22.4px] font-medium opacity-50"
               >
-                {savings.price1}
+                {savings.price2}
               </span>
             </div>
           </div>
